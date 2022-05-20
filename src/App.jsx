@@ -14,7 +14,7 @@ function App() {
     setText(e.target.value);
   };
 
-  const blurHandler = (e) => {
+  const blurHandler = () => {
     if (text === "") {
       setSended(false);
       setBlur(true);
