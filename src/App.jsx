@@ -40,7 +40,7 @@ function App() {
           value={text}
           onChange={handleChange}
         />
-        <button className="btn" disabled={blur ? "disabled" : ""} type="submit">
+        <button className="btn" disabled={blur} type="submit">
           Отправить
         </button>
       </form>
